@@ -1,14 +1,8 @@
-.dark{
-    background-color: black;
-    color: crimson;
-}
-.light{
-    background-color: burlywood;
-    color: black;
-}
 body{
     margin: 0;
     padding: 0;
+    background-color: black;
+    color: crimson;
 }
 h1,h2{
     color: burlywood;
