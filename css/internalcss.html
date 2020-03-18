@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>external css</title>
+        <style>
+            h1{
+                color: burlywood;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            p{
+                color: beige;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            .error{
+                color: crimson;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            .center{
+                color: burlywood;
+                margin: auto;
+                width: 50%;
+                border: 3px dotted gray;
+                padding: 10px;
+            }
+            a:link{
+                color: blue;
+            }
+            a:visited{
+                color: blueviolet;
+            }
+            a:hover{
+                color: cadetblue;
+            }
+            a:active{
+                color: crimson;
+            }
+        </style>
+    </head>
+    <body style="background-color: black;">
+        <h1 style="color:burlywood; font-family: Arial, Helvetica, sans-serif;">
+            <!--internal styling-->
+            This is a header
+        </h1>
+        <h1>
+            This is a second h1 header
+        </h1>
+        <h2 class="error">This is a header</h2>
+        <p class="center error">This is a paragragh</p>
+        <a href="../html/helloWorld.html">link</a>
+    </body>
+</html>
