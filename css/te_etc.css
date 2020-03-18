@@ -6,36 +6,50 @@
     background-color: burlywood;
     color: black;
 }
-.navdiv{
-    background-color: coral;
+body{
+    margin: 0;
 }
 h1,h2{
     color: burlywood;
     font-family: Arial, Helvetica, sans-serif;
     padding: 1%;
 }
-nav{
-    padding: 1%;
+#navBar {
+    display: block;
+    padding: 14px 16px;
+    margin: 0;
 }
-a:link {
-    color: brown;
-    background-color: transparent;
+#navBar li{
+    list-style-type: none;
+    float: left;
+    margin: 0;
+}
+#navBar li a{
+    display: block;
+    padding: 14px 16px;
+    font-size: 1cm;
+    font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
 }
-a:visited {
+#navBar li a:link {
     color: brown;
     background-color: transparent;
-    text-decoration: none;
+
 }
-a:hover {
+#navBar li a:visited {
+    color: brown;
+    background-color: transparent;
+
+}
+#navBar li a:hover {
     color: chocolate;
-    background-color: transparent;
-    text-decoration: none;
+    background-color: white;
+
 }
-a:active {
+#navBar li a:active {
     color: yellow;
     background-color: transparent;
-    text-decoration: none;
+
 }
 button{
     color: burlywood; border-color: burlywood; background-color: transparent;
