@@ -19,6 +19,7 @@ h1,h2{
     display: block;
     padding: 0;
     margin: 0;
+    overflow: hidden;
 }
 #navBar li{
     list-style-type: none;
@@ -39,19 +40,20 @@ h1,h2{
 }
 #navBar li a:visited {
     color: brown;
-    background-color: transparent;
-
 }
 #navBar li a:hover {
     color: chocolate;
-    background-color: burlywood;
 
 }
 #navBar li a:active {
     color: yellow;
-    background-color: transparent;
-
 }
 button{
     color: burlywood; border-color: burlywood; background-color: transparent;
+}
+#carouselExampleCaptions{
+    width: 70%;
+    position: fixed;
+    top: 100px;
+    right: 0;
 }
