@@ -8,6 +8,7 @@
 }
 body{
     margin: 0;
+    padding: 0;
 }
 h1,h2{
     color: burlywood;
@@ -16,7 +17,7 @@ h1,h2{
 }
 #navBar {
     display: block;
-    padding: 14px 16px;
+    padding: 0;
     margin: 0;
 }
 #navBar li{
@@ -43,7 +44,7 @@ h1,h2{
 }
 #navBar li a:hover {
     color: chocolate;
-    background-color: white;
+    background-color: burlywood;
 
 }
 #navBar li a:active {
