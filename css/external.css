@@ -32,3 +32,16 @@ a:hover{
 a:active{
     color: crimson;
 }
+
+button{
+    border-color: burlywood;
+    border-radius: 10px;
+
+    padding: 10px;
+    background-color: transparent;
+    color: white;
+}
+button:hover{
+    background-color: burlywood;
+    color: black;
+}
